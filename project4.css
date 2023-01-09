@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Tajawal&display=swap');
+
+body {
+    
+    font-family: 'tajawal','arial';
+    margin: 0;
+}
+
+
+
+    
+
+
+
+nav {
+    margin: 0;
+    background-color:brown;
+    display: flex;
+    /* height: 50px; */
+    align-items: center;
+    background-image: url(perfumes1.jfif);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.brand {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.menu {
+    flex-grow: 2;
+}
+#welcome {
+    background-color: blanchedalmond;
+    height: 94vh;
+    background-image: url(perfumes5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+#welcome h1 {
+    margin: 0;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+#welcome p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.btn {
+    margin-top: 15px;
+    background-color: brown;
+    color: rgb(0, 0, 0);
+    padding:5px 15px;
+    border: 0;
+    font-family:'tajawal','arial';
+    border-radius: 5px;
+
+}
+
+#products {
+    background-color:rgb(255, 255, 255) ;
+}
+
+#products header {
+    text-align: center;
+}
+
+#products h1 {
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list div {
+
+}
+
+.card {
+    border: 1px solid black ;
+}
+
+.card2 {
+    border: 1px solid black ;
+
+}
+
+.card3 {
+    border: 1px solid black ;
+   
+}
+
+.card img {
+    border: 1px solid black ;
+}
+
+.card2 img {
+    border: 1px solid black ;
+    height: 709px;
+    width: 550px;
+}
+
+.card3 img {
+    border: 1px solid black ;
+    height: 709px;
+    width: 550px;
+}
+
+.card img {
+    width: 100%;
+}
+    
+

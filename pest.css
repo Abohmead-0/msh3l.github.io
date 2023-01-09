@@ -1,0 +1,66 @@
+
+#products {
+    background-color:rgb(255, 255, 255) ;
+    background-image: url(cool-background3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#products header {
+    text-align: center;
+    color: white;
+}
+
+#products h1 {
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+
+.card {
+    border: 1px solid white ;
+}
+
+.card2 {
+    border: 1px solid white ;
+
+}
+
+.card3 {
+    border: 1px solid white ;
+   
+}
+
+.card img {
+    border: 1px solid white ;
+}
+
+.card2 img {
+    border: 1px solid white ;
+    height: 709px;
+    width: 550px;
+}
+
+.card3 img {
+    border: 1px solid white ;
+    height: 709px;
+    width: 550px;
+}
+
+.card img {
+    width: 100%;
+}
